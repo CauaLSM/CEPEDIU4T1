@@ -4,21 +4,15 @@
   "editor": "wokwi",
   "parts": [
     { "type": "board-pi-pico-w", "id": "pico", "top": -12.85, "left": 157.15, "attrs": {} },
-    { "type": "wokwi-led", "id": "led1", "top": 102, "left": 42.2, "attrs": { "color": "red" } },
     {
       "type": "wokwi-led",
-      "id": "led2",
-      "top": 159.6,
-      "left": 42.2,
-      "attrs": { "color": "yellow" }
-    },
-    {
-      "type": "wokwi-led",
-      "id": "led3",
-      "top": 207.6,
+      "id": "led1",
+      "top": 102,
       "left": 42.2,
       "attrs": { "color": "limegreen" }
     },
+    { "type": "wokwi-led", "id": "led2", "top": 159.6, "left": 23, "attrs": { "color": "blue" } },
+    { "type": "wokwi-led", "id": "led3", "top": 207.6, "left": 42.2, "attrs": { "color": "red" } },
     {
       "type": "wokwi-resistor",
       "id": "r1",
@@ -64,19 +58,19 @@
     [ "r3:1", "pico:GND.4", "green", [ "v0" ] ],
     [ "r2:1", "pico:GND.4", "green", [ "v0" ] ],
     [ "r1:1", "pico:GND.4", "green", [ "v0" ] ],
-    [ "led1:A", "pico:GP11", "green", [ "h57.6", "v-9.6" ] ],
-    [ "led2:A", "pico:GP12", "green", [ "h57.6", "v-38.44" ] ],
-    [ "led3:A", "pico:GP13", "green", [ "h48", "v-96.04" ] ],
     [ "bz1:2", "pico:GND.6", "green", [ "v0" ] ],
-    [ "bz1:1", "pico:GP22", "green", [ "v0" ] ],
-    [ "keypad1:C4", "pico:GP28", "green", [ "h105.3", "v-240", "h403.2", "v115.2" ] ],
+    [ "keypad1:C4", "pico:GP28", "green", [ "h105.3", "v-240", "h451.2", "v182.4" ] ],
     [ "keypad1:C3", "pico:GP2", "green", [ "h134.25", "v-86.4" ] ],
     [ "keypad1:C2", "pico:GP3", "green", [ "h163.2", "v-76.8" ] ],
     [ "keypad1:C1", "pico:GP4", "green", [ "h191.9", "v-67.2" ] ],
     [ "keypad1:R4", "pico:GP5", "green", [ "h220.6", "v-57.6" ] ],
     [ "keypad1:R3", "pico:GP6", "green", [ "h249.3", "v-38.4" ] ],
     [ "keypad1:R2", "pico:GP7", "green", [ "h278", "v-28.8" ] ],
-    [ "keypad1:R1", "pico:GP8", "green", [ "h316.8", "v-19.2" ] ]
+    [ "keypad1:R1", "pico:GP8", "green", [ "h316.8", "v-19.2" ] ],
+    [ "led1:A", "pico:GP11", "green", [ "v0" ] ],
+    [ "led2:A", "pico:GP12", "green", [ "h38.4", "v-57.64" ] ],
+    [ "led3:A", "pico:GP13", "green", [ "h28.8", "v-96.04" ] ],
+    [ "bz1:1", "pico:GP21", "green", [ "v0" ] ]
   ],
   "dependencies": {}
 }
