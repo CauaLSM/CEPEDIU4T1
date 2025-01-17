@@ -17,7 +17,7 @@
 rule ASM_COMPILER__U4T1_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\caual\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\Jonas\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building ASM object $out
 
 
@@ -27,7 +27,7 @@ rule ASM_COMPILER__U4T1_unscanned_Release
 rule C_COMPILER__U4T1_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\caual\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\Jonas\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -37,7 +37,7 @@ rule C_COMPILER__U4T1_unscanned_Release
 rule CXX_COMPILER__U4T1_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\caual\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\Jonas\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -45,7 +45,7 @@ rule CXX_COMPILER__U4T1_unscanned_Release
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__U4T1_Release
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\caual\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-g++.exe $FLAGS -Wl,--build-id=none $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Users\Jonas\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-g++.exe $FLAGS -Wl,--build-id=none $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   rspfile = $RSP_FILE
   rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
@@ -66,7 +66,7 @@ rule CUSTOM_COMMAND
 rule ASM_COMPILER__bs2_default_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\caual\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\Jonas\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building ASM object $out
 
 
@@ -74,7 +74,7 @@ rule ASM_COMPILER__bs2_default_unscanned_Release
 # Rule for linking ASM executable.
 
 rule ASM_EXECUTABLE_LINKER__bs2_default_Release
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\caual\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $FLAGS -Wl,--build-id=none $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\Users\Jonas\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $FLAGS -Wl,--build-id=none $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking ASM executable $TARGET_FILE
   restat = $RESTAT
 
@@ -85,7 +85,7 @@ rule ASM_EXECUTABLE_LINKER__bs2_default_Release
 rule ASM_COMPILER__bs2_default_library_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}C:\Users\caual\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = ${LAUNCHER}${CODE_CHECK}C:\Users\Jonas\.pico-sdk\toolchain\13_3_Rel1\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building ASM object $out
 
 
@@ -93,7 +93,7 @@ rule ASM_COMPILER__bs2_default_library_unscanned_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\caual\.pico-sdk\cmake\v3.29.9\bin\cmake.exe --regenerate-during-build -SC:\Users\caual\OneDrive\Documentos\ResidênciaCEPEDI\U4T1\U4T1 -BC:\Users\caual\OneDrive\Documentos\ResidênciaCEPEDI\U4T1\U4T1\build
+  command = C:\Users\Jonas\.pico-sdk\cmake\v3.29.9\bin\cmake.exe --regenerate-during-build -S"C:\Users\Jonas\Desktop\Tecla 1\CEPEDIU4T1" -B"C:\Users\Jonas\Desktop\Tecla 1\CEPEDIU4T1\build"
   description = Re-running CMake...
   generator = 1
 
@@ -102,7 +102,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\Users\caual\.pico-sdk\ninja\v1.12.1\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\Jonas\.pico-sdk\ninja\v1.12.1\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -110,6 +110,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\Users\caual\.pico-sdk\ninja\v1.12.1\ninja.exe -t targets
+  command = C:\Users\Jonas\.pico-sdk\ninja\v1.12.1\ninja.exe -t targets
   description = All primary targets available:
 
