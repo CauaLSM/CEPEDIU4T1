@@ -1,6 +1,6 @@
 // Função tecla 7
 // Piscar o LED vermelho 5 vezes lentamente.
-void piscar_led_vermelho(){
+void Techa7(){
 
 gpio_put(LedVermelho,1); // Liga led vermelho
 sleep_ms(1000); // tempo de 1 segundos aceso

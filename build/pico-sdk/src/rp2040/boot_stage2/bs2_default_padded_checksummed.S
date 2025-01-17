@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/Users/caual/OneDrive/Documentos/ResidênciaCEPEDI/U4T1/U4T1/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/Users/Deize/Documents/ERICK/Embarcatech/Tarefa W3/CEPEDIU4T1/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

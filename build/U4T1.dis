@@ -1,5 +1,5 @@
 
-C:/Users/caual/OneDrive/Documentos/ResidênciaCEPEDI/U4T1/U4T1/build/U4T1.elf:     file format elf32-littlearm
+C:/Users/Deize/Documents/ERICK/Embarcatech/Tarefa W3/CEPEDIU4T1/build/U4T1.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -43,18 +43,18 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  19 .debug_rnglists 00003c12  00000000  00000000  0003d830  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_line   0002066d  00000000  00000000  00041442  2**0
+ 20 .debug_line   0002066e  00000000  00000000  00041442  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_str    00007bc1  00000000  00000000  00061aaf  2**0
+ 21 .debug_str    00007b7f  00000000  00000000  00061ab0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_frame  00002a90  00000000  00000000  00069670  2**2
+ 22 .debug_frame  00002a90  00000000  00000000  00069630  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_loclists 00017866  00000000  00000000  0006c100  2**0
+ 23 .debug_loclists 00017866  00000000  00000000  0006c0c0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_line_str 0000035a  00000000  00000000  00083966  2**0
+ 24 .debug_line_str 0000035c  00000000  00000000  00083926  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-C:/Users/caual/OneDrive/Documentos/ResidênciaCEPEDI/U4T1/U4T1/build/U4T1.elf:     file format elf32-littlearm
+C:/Users/Deize/Documents/ERICK/Embarcatech/Tarefa W3/CEPEDIU4T1/build/U4T1.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:
