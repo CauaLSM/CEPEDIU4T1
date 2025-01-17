@@ -35,7 +35,13 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(U4T1 U4T1.c )
+add_executable(
+    U4T1
+    U4T1.c
+    keypad/keypad.c
+    functions/tecla3.c
+    functions/tecla5.c
+)
 
 pico_set_program_name(U4T1 "U4T1")
 pico_set_program_version(U4T1 "0.1")
