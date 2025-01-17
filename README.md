@@ -8,3 +8,4 @@ Tarefa da CEPEDI para manuseamento do simulador wokwi
 - Pino Azul = LedAzul
 - Pino Vermelho = LedVermelho
 - Buzzer = Buzzer
+-
