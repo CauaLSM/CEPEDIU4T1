@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = '.pio\build\pico\firmware.uf2'
-elf = '.pio\build\pico\firmware.elf'
+firmware = 'build\U4T1.uf2'
+elf = 'build\U4T1.elf'
