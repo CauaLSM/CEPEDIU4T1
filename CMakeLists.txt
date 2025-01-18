@@ -41,6 +41,9 @@ add_executable(
     keypad/keypad.c
     functions/tecla3.c
     functions/tecla5.c
+    functions/Tecla7.c
+    functions/Tecla8.c
+
 )
 
 pico_set_program_name(U4T1 "U4T1")

@@ -32,6 +32,13 @@ int main()
             case '5':
                 tecla5();
                 break;
+            case '7':
+                Tecla7();
+                break;
+            case '8':
+                Tecla8();
+                break;
+
             default:
                 break;
         }
