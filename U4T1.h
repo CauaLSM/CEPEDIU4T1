@@ -5,6 +5,7 @@
 
 #include "functions/functions.h"
 #include "keypad/keypad.h"
+#include "neopixel/neopixel.h"
 
 #define LED_VERDE       11
 #define LED_AZUL        12
