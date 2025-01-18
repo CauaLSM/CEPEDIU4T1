@@ -1,9 +1,9 @@
 #include "functions.h"
 
 void Tecla1() {
-  digitalWrite(LedVermelho, HIGH);
-  digitalWrite(LedVerde, HIGH);
+  digitalWrite(LED_VERMELHO, HIGH);
+  digitalWrite(LED_VERDE, HIGH);
   delay(3000);
-  digitalWrite(LedVermelho, LOW);
-  digitalWrite(LedVerde, LOW);
+  digitalWrite(LED_VERMELHO, LOW);
+  digitalWrite(LED_VERDE, LOW);
 }
