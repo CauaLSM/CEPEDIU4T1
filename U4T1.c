@@ -56,6 +56,7 @@ int main()
                 break;
             case '2':
                 renderMatrix(CHAR_2);
+                tecla2();
 
                 break;
             case '3':
@@ -84,6 +85,7 @@ int main()
                 break;
             case '9':
                 renderMatrix(CHAR_9);
+                tecla9();
 
                 break;
             case 'A':

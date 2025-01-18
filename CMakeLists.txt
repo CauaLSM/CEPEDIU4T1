@@ -39,10 +39,12 @@ add_executable(
     U4T1
     U4T1.c
     keypad/keypad.c
+    functions/tecla2.c
     functions/tecla3.c
     functions/tecla5.c
     functions/Tecla7.c
     functions/Tecla8.c
+    functions/tecla9.c
     neopixel/neopixel.c
 )
 
