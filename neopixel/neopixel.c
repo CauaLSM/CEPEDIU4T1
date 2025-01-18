@@ -28,5 +28,4 @@ void renderMatrix(bool letra[MATRIX_LEN][MATRIX_LEN]) {
       else put_pixel(urgb_u32(0, 0, 0));
     }
   }
-  printf("\n\n\n");
 }
