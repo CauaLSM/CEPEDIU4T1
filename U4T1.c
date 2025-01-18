@@ -39,25 +39,78 @@ int main()
 
     initGpio();
     initKeypad();
-
     initBuzzerPwm();
+    initNeoPixel();
 
     while (true) {
         char key = getKey();
 
         switch(key) {
+            case '0':
+                renderMatrix(CHAR_0);
+
+                break;
+            case '1':
+                renderMatrix(CHAR_1);
+                
+                break;
+            case '2':
+                renderMatrix(CHAR_2);
+
+                break;
             case '3':
+                renderMatrix(CHAR_3);
                 tecla3();
                 break;
+            case '4':
+                renderMatrix(CHAR_4);
+
+                break;
             case '5':
+                renderMatrix(CHAR_5);
                 tecla5();
                 break;
+            case '6':
+                renderMatrix(CHAR_6);
+
+                break;
             case '7':
+                renderMatrix(CHAR_7);
                 Tecla7();
                 break;
             case '8':
+                renderMatrix(CHAR_8);
                 Tecla8();
                 break;
+            case '9':
+                renderMatrix(CHAR_9);
+
+                break;
+            case 'A':
+                renderMatrix(CHAR_A);
+
+                break;
+            case 'B':
+                renderMatrix(CHAR_B);
+
+                break;
+            case 'C':
+                renderMatrix(CHAR_C);
+
+                break;
+            case 'D':
+                renderMatrix(CHAR_D);
+
+                break;
+            case '*':
+                renderMatrix(CHAR_AST);
+
+                break;
+            case '#':
+                renderMatrix(CHAR_JG_VELHA);
+
+                break;
+            
 
             default:
                 break;

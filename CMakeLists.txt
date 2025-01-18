@@ -43,7 +43,7 @@ add_executable(
     functions/tecla5.c
     functions/Tecla7.c
     functions/Tecla8.c
-
+    neopixel/neopixel.c
 )
 
 pico_set_program_name(U4T1 "U4T1")
@@ -58,6 +58,7 @@ target_link_libraries(
     U4T1
     pico_stdlib
     hardware_pwm
+    hardware_pio
 )
 
 # Add the standard include files to the build
