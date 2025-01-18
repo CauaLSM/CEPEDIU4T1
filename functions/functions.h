@@ -9,5 +9,7 @@
 
 void tecla3();
 void tecla5();
+void Tecla7();
+void Tecla8();
 
 #endif
