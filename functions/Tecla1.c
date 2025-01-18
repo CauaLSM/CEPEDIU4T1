@@ -1,3 +1,5 @@
+#include "functions.h"
+
 void Tecla1() {
   digitalWrite(LedVermelho, HIGH);
   digitalWrite(LedVerde, HIGH);
