@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/caual/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync
+# Install script for directory: C:/Users/raipa/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/caual/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/raipa/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 
