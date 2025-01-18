@@ -52,6 +52,7 @@ int main()
                 break;
             case '1':
                 renderMatrix(CHAR_1);
+                Tecla1();
                 
                 break;
             case '2':
