@@ -7,9 +7,11 @@
 
 #include "../U4T1.h"
 
+void tecla2();
 void tecla3();
 void tecla5();
 void Tecla7();
 void Tecla8();
+void tecla9();
 
 #endif
