@@ -4,8 +4,7 @@ Tarefa da CEPEDI para manuseamento do simulador wokwi
 
 # Variáveis
 
-- Pino verde = LedVerde
-- Pino Azul = LedAzul
-- Pino Vermelho = LedVermelho
-- Buzzer = Buzzer
--
+- Pino verde = LED_VERDE
+- Pino Azul = LED_AZUL
+- Pino Vermelho = LED_VERMELHO
+- Buzzer = BUZZER
