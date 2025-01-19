@@ -11,6 +11,6 @@
 #define LED_AZUL        12
 #define LED_VERMELHO    13
 
-#define BUZZER          10
+#define BUZZER          21
 
 #endif

@@ -48,7 +48,6 @@ int main()
         switch(key) {
             case '0':
                 renderMatrix(CHAR_0);
-
                 break;
             case '1':
                 renderMatrix(CHAR_1);
@@ -66,7 +65,7 @@ int main()
                 break;
             case '4':
                 renderMatrix(CHAR_4);
-
+                Tecla4();
                 break;
             case '5':
                 renderMatrix(CHAR_5);
@@ -74,7 +73,7 @@ int main()
                 break;
             case '6':
                 renderMatrix(CHAR_6);
-
+                Tecla6();
                 break;
             case '7':
                 renderMatrix(CHAR_7);
@@ -91,14 +90,16 @@ int main()
                 break;
             case 'A':
                 renderMatrix(CHAR_A);
+                teclaA();
 
                 break;
             case 'B':
                 renderMatrix(CHAR_B);
-
+                teclaB();
                 break;
             case 'C':
                 renderMatrix(CHAR_C);
+                teclac();
 
                 break;
             case 'D':
@@ -107,6 +108,7 @@ int main()
                 break;
             case '*':
                 renderMatrix(CHAR_AST);
+                tecla_asterisco();
 
                 break;
             case '#':
