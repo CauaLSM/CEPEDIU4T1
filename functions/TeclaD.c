@@ -2,7 +2,7 @@
 #include "function.h"
 
 void teclaD() {
-    int q = 2; //
+    int q = 2; 
     while (q > 0) { 
         gpio_put(LED_VERDE, 1);
         gpio_put(LED_AZUL, 0);
@@ -41,6 +41,5 @@ void teclaD() {
         gpio_put(LED_AZUL, 0);
         gpio_put(LED_VERMELHO, 0);
         sleep_ms(500);
-}
 
 
