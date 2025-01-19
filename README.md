@@ -111,3 +111,31 @@ U4T1/
 * Explorar outras bibliotecas e recursos do Raspberry Pi Pico
 
 ## 🎉 Divirta-se explorando e modificando o projeto!
+
+# 👥 Atribuições de cada Membro
+
+- Raiane - Função das teclas 4 e 6
+
+- ERICK - Função das teclas 7 e 8 | Ajustes na simulação e organização de pastas
+
+- Jonas - Função da tecla 1 | Ajustes na simulação e organização de pastas
+
+- Kleber - Função das teclas 3 e 5 | Testes do hardware no mundo real
+
+- Cauã - Função das teclas A e B | Organização do repositório
+
+- Brunna - Função das teclas 0 e #
+
+- Eduardo - Função das teclas C e *
+
+- Alana - Função das teclas 2 e 9
+
+- Isla - Função da tecla D
+
+## 📞 Contato
+
+- 👤 **Autor**: Brunna Barreto, Cauã Luís Santos, Erick de Sousa, Jonas Souza, Luiz Eduardo e Raiane Damascena 
+ 
+- 📧 **E-mail**: 20241bsifsa0027@ifba.edu.br, caualuis2012@hotmail.com, Erickvestas@gmail.com, Jonassouza871@hotmail.com, luizeduardosoaresferreira942@gmail.com e rai.paixao2012@gmail.com
+
+--- 
