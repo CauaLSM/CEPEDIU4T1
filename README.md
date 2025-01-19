@@ -114,23 +114,23 @@ U4T1/
 
 # 👥 Atribuições de cada Membro
 
-- Raiane - Função das teclas 4 e 6
+- Raiane - Função das teclas 4 e 6;
 
-- ERICK - Função das teclas 7 e 8 | Ajustes na simulação e organização de pastas
+- ERICK - Função das teclas 7 e 8 | Ajustes na simulação e organização de pastas;
 
-- Jonas - Função da tecla 1 | Ajustes na simulação e organização de pastas
+- Jonas - Função da tecla 1 | Ajustes na simulação e organização de pastas;
 
-- Kleber - Função das teclas 3 e 5 | Testes do hardware no mundo real
+- Kleber - Função das teclas 3 e 5 | Testes do hardware no mundo real;
 
-- Cauã - Função das teclas A e B | Organização do repositório
+- Cauã - Função das teclas A e B | Organização do repositório;
 
-- Brunna - Função das teclas 0 e #
+- Brunna - Função das teclas 0 e #;
 
-- Eduardo - Função das teclas C e *
+- Eduardo - Função das teclas C e *;
 
-- Alana - Função das teclas 2 e 9
+- Alana - Função das teclas 2 e 9;
 
-- Isla - Função da tecla D
+- Isla - Função da tecla D.
 
 ## 📞 Contato
 
