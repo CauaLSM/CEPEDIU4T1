@@ -76,7 +76,7 @@
 
 ## 💡 Dicas
 
-* **Organização:** O projeto está organizado com arquivos separados para as funções de cada tecla (functions.c/.h), a lógica do teclado (keypad.c/.h) e o código principal (main.c). Isso facilita a manutenção e a adição de novas funcionalidades.
+* **Organização:** O projeto está organizado com arquivos separados para as funções de cada tecla (functions.c/.h), a lógica do teclado (keypad.c/.h) e o código principal (U4T1.c). Isso facilita a manutenção e a adição de novas funcionalidades.
 
 * **PWM:** O buzzer é controlado usando PWM (Pulse Width Modulation) para variar seu volume.
 
