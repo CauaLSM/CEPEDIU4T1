@@ -100,7 +100,8 @@ U4T1/
 ```
 
 ## Esquemático
-Insira o esquema aqui.
+![image](https://github.com/user-attachments/assets/03feff71-5d39-4a19-8b36-b759d5313f9d)
+
 
 ## ✨ Próximos Passos
 
