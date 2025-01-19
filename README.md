@@ -134,8 +134,8 @@ U4T1/
 
 ## 📞 Contato
 
-- 👤 **Autor**: Brunna Barreto, Cauã Luís Santos, Erick de Sousa, Jonas Souza, Luiz Eduardo e Raiane Damascena 
+- 👤 **Autor**: Alana Almeida, Brunna Barreto, Cauã Luís Santos, Erick de Sousa, Isla Silva, Jonas Souza, Kleber Marçal, Luiz Eduardo e Raiane Damascena 
  
-- 📧 **E-mail**: 20241bsifsa0027@ifba.edu.br, caualuis2012@hotmail.com, Erickvestas@gmail.com, Jonassouza871@hotmail.com, luizeduardosoaresferreira942@gmail.com e rai.paixao2012@gmail.com
+- 📧 **E-mail**:alanaalmeida2004@gmail.com, 20241bsifsa0027@ifba.edu.br, caualuis2012@hotmail.com, Erickvestas@gmail.com,  islasilva736@gmail.com, Jonassouza871@hotmail.com, Kleber.sm@gmail.com, luizeduardosoaresferreira942@gmail.com e rai.paixao2012@gmail.com
 
 --- 
