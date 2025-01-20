@@ -20,8 +20,8 @@
 | **B**  | Acende todos os LEDs e os mantém acesos.          |
 | **C**  | Desliga todos os LEDs e o buzzer.                |
 | **\*** | Acende o LED vermelho e toca o buzzer por 6 segundos. |
-| **#**  | Reservado para funcionalidade futura.             |
-| **0**  | Reservado para funcionalidade futura.             |
+| **#**  | Liga e delisga todos os Leds após um tempo.           |
+| **0**  | liga e desligada cada Led separadamente.     |
 | **D**  | Liga os leds em uma sequência predefinida. |
 
 
