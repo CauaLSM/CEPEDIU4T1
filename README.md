@@ -20,8 +20,8 @@
 | **B**  | Acende todos os LEDs e os mantém acesos.          |
 | **C**  | Desliga todos os LEDs e o buzzer.                |
 | **\*** | Acende o LED vermelho e toca o buzzer por 6 segundos. |
-| **#**  | Reservado para funcionalidade futura.             |
-| **0**  | Reservado para funcionalidade futura.             |
+| **#**  | Liga e delisga todos os Leds após um tempo.           |
+| **0**  | liga e desligada cada Led separadamente.     |
 | **D**  | Liga os leds em uma sequência predefinida. |
 
 
@@ -132,10 +132,14 @@ U4T1/
 
 - Isla - Função da tecla D.
 
+ ## 🔗 Link do Vídeo de Funcionamento:
+
+https://drive.google.com/file/d/1xDDMH5Lh1is0blls53MmTrNnwqSIV6wE/view?usp=drivesdk
+
 ## 📞 Contato
 
-- 👤 **Autor**: Brunna Barreto, Cauã Luís Santos, Erick de Sousa, Jonas Souza, Luiz Eduardo e Raiane Damascena 
+- 👤 **Autor**: Alana Almeida, Brunna Barreto, Cauã Luís Santos, Erick de Sousa, Isla Silva, Jonas Souza, Kleber Marçal, Luiz Eduardo e Raiane Damascena 
  
-- 📧 **E-mail**: 20241bsifsa0027@ifba.edu.br, caualuis2012@hotmail.com, Erickvestas@gmail.com, Jonassouza871@hotmail.com, luizeduardosoaresferreira942@gmail.com e rai.paixao2012@gmail.com
+- 📧 **E-mail**:alanaalmeida2004@gmail.com, 20241bsifsa0027@ifba.edu.br, caualuis2012@hotmail.com, Erickvestas@gmail.com,  islasilva736@gmail.com, Jonassouza871@hotmail.com, Kleber.sm@gmail.com, luizeduardosoaresferreira942@gmail.com e rai.paixao2012@gmail.com
 
 --- 
